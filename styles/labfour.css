@@ -276,9 +276,9 @@ p {
   }
 
   .footer-map iframe {
-    width: 100%;
+    width: 80%;
     height: 300px; 
-    max-width: 100%;
+    max-width: 80%;
 }
   
   .footer-copyright {
