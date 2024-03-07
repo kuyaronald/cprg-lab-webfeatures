@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="/styles/fonts.css">
+  <link rel="stylesheet" type="text/css" href="/styles/global.css">
+  <link rel="stylesheet" type="text/css" href="styles/lab_four_starter.css">
+  <link rel="stylesheet" type="text/css" href="styles/labfour.css">
+  <script defer src="labfourjava.js"></script>
+  <script src="https://kit.fontawesome.com/154e02f8d9.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <title>LAB 4 ASSIGNMENT</title>
+</head>
+<body>
+  <section class="hero-container">
+
+    <img class="hero-image" src="assets/shoes1.jpg" alt= "a pair of white shoes and a gold necklance hanging out of one of the shoes">
+    <div class="hero-content">
+        <h1 class="hero-header">THESE ARE SHOES</h1>
+        <p class="hero-subheader">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, laudantium odio, facilis at dolorum neque facere commodi ullam eveniet consequatur sunt provident minus, esse assumenda aut porro. Consequatur, quis hic.</p>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="content-container">
+        <h2 class="content-header">NICE SHOES</h2>
+        <p class="content-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <button class="content-button">Learn More</button>
+        <img class="content-image" src="assets/shoes2.jpg" alt="A guy wearing black shorts holding a pair of black and red jordan shoes">
+    </div>
+</section>
+
+<section class="accordion-container">
+<section class="accordion-section">
+  <button class="accordion-button" onclick="toggleAccordion('section1')">
+      <i class="fas fa-shoe-prints"></i> ONE
+  </button>
+  <div class="accordion-content" id="section1">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem libero consequuntur inventore nihil tempora delectus repellendus, nesciunt laborum quam expedita vero numquam voluptas at? Fuga error excepturi incidunt molestiae quidem.</p>
+  </div>
+
+  <button class="accordion-button" onclick="toggleAccordion('section2')">
+      <i class="fas fa-shoe-prints"></i> TWO
+  </button>
+  <div class="accordion-content" id="section2">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repudiandae nisi reprehenderit expedita eaque labore eius perspiciatis quas eum earum quam ea tempora commodi fugit officiis enim illum, autem asperiores!</p>
+  </div>
+
+  <button class="accordion-button" onclick="toggleAccordion('section3')">
+    <i class="fas fa-shoe-prints"></i> THREE
+</button>
+<div class="accordion-content" id="section3">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repudiandae nisi reprehenderit expedita eaque labore eius perspiciatis quas eum earum quam ea tempora commodi fugit officiis enim illum, autem asperiores!</p>
+</div>
+</section>
+</section>
+
+<footer class="footer-section">
+  <div class="footer-content">
+    <h2 class="footer-header"> These are shoes</h2>
+    <p class="footer-subheader">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed placeat quam temporibus nostrum repellendus provident nobis odio necessitatibus! Ex quae labore nulla quia harum nisi quaerat voluptates deleniti. Aliquid, totam.</p>
+    <div class="footer-links">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.517809700472!2d-114.08101182340769!3d51.04352597171151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716f2902d70545%3A0x322b828c65a15036!2sMomentum%20Clothing%20Calgary!5e0!3m2!1sen!2sca!4v1709714568311!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <p>&copy; <span id="currentYear"></span> Ronald Atutubo. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
